@@ -1,0 +1,14 @@
+# EA files and live-session captures: never commit
+apk/
+captures/
+*.obb
+
+# Phase 1 (legacy issues 001-011): stays on the player's disk, not in this repo
+scripts/
+extension/
+issues/
+
+# Local tooling
+.playwright-mcp/
+__pycache__/
+.DS_Store
